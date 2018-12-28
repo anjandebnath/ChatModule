@@ -1,0 +1,579 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\89724f5bfc1e1635af450097f47f685a\AndroidManifest.xml:17:1-22:12
+MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:2:1-187:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ed8cd656ff2faac8fd3edff05ed6744e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\dd35a75d9bf98875b7221e907b285c93\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\c3f9523a5458a4b6c940e1b4d04fc3f9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\0c7d0be1a68e6ca300a917609188e796\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\77a60bbc7021acfcd216c2213a66da46\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1007bf9d514353c50158610570990ea2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\6d0323ba5d8faf53cdacb03175d3ec74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\12461b95c23be9ba33129b2b09d53c27\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1ba909058b38457eed351185fd37fdd2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a37ecf26a2c3912cc54c697f5d948db6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\ecbc05f3b19eaff478dd0af6b259d738\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9fdbb71dafbf774d079e013e428b624d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a6f6f8d512ed6603257f4f678e38ebf8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b2f5d677156c39487a5b43140d790106\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0ea08650ef01e92dd7d535d6a47c530e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\41dfcacb9a215b1a4c837b7ab6fce285\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\90c51dc0c86014fe9966d97c34ba0a25\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7433477f41758d3c5ca09aa4b99401c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\393451f0f037d290790ad1e91894182f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f23e238b7ce84f4da5e2b58287a96de8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\07db10f80481383a49e8a1a07bbd511a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8c97d3a4f0efb8b03e829a3a42e8e82d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\6d03876d449c093297e981f960cceb1f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\27d2cb6762cf06f21b41b2cc7d1bb496\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c60a340c4c0a84c21c1398606cd2ef7\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\5e8adaa2e94f6c5e33b50a32e65875d2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f5cfeee19d47f0663e2008f79e1c4aba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\62fdeea4d407ef4ba1f0d172476204ab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\fc29f2480bf36ff359e64a2f191382b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\53fedbbbe694ff1d56b46ef50afc0797\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3782a22324efc1bd6d8bcfbc2b562d95\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\19b07ec32e171472c289a0539dc21b74\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\df92503847be5edbc2f07cfbef2e22e6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fbf8c719f3561896dfea05c894677473\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\18194893a80d5d059e13ac82ee488ed1\AndroidManifest.xml:17:1-22:12
+MERGED from [org.whispersystems:signal-protocol-android:2.4.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\signal-protocol-android-2.4.0.aar\0fa8fd751e1585d84165f7e3186b865f\AndroidManifest.xml:2:1-5:12
+MERGED from [cc.mvdan.accesspoint:library:0.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\library-0.2.0.aar\71b32fa04933933761ffce2c1cfae137\AndroidManifest.xml:2:1-10:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\be8a874c9d4600f79be630fdd9173b68\AndroidManifest.xml:15:1-21:12
+MERGED from [org.whispersystems:curve25519-android:0.3.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\curve25519-android-0.3.0.aar\00bec5d5f962b558abea51edf25efd4b\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:26:5-30:19
+MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:31:5-185:19
+MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:31:5-185:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\c3f9523a5458a4b6c940e1b4d04fc3f9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\c3f9523a5458a4b6c940e1b4d04fc3f9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\0c7d0be1a68e6ca300a917609188e796\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\0c7d0be1a68e6ca300a917609188e796\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\77a60bbc7021acfcd216c2213a66da46\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\77a60bbc7021acfcd216c2213a66da46\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1007bf9d514353c50158610570990ea2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1007bf9d514353c50158610570990ea2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\27d2cb6762cf06f21b41b2cc7d1bb496\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\27d2cb6762cf06f21b41b2cc7d1bb496\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c60a340c4c0a84c21c1398606cd2ef7\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c60a340c4c0a84c21c1398606cd2ef7\AndroidManifest.xml:22:5-23:19
+MERGED from [org.whispersystems:curve25519-android:0.3.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\curve25519-android-0.3.0.aar\00bec5d5f962b558abea51edf25efd4b\AndroidManifest.xml:5:5-20
+MERGED from [org.whispersystems:curve25519-android:0.3.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\curve25519-android-0.3.0.aar\00bec5d5f962b558abea51edf25efd4b\AndroidManifest.xml:5:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\27d2cb6762cf06f21b41b2cc7d1bb496\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.uss.chatmodule.MainActivity
+ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\89724f5bfc1e1635af450097f47f685a\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\89724f5bfc1e1635af450097f47f685a\AndroidManifest.xml:20:5-43
+MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:7:5-9:41
+MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ed8cd656ff2faac8fd3edff05ed6744e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ed8cd656ff2faac8fd3edff05ed6744e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\dd35a75d9bf98875b7221e907b285c93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\dd35a75d9bf98875b7221e907b285c93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\c3f9523a5458a4b6c940e1b4d04fc3f9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\c3f9523a5458a4b6c940e1b4d04fc3f9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\0c7d0be1a68e6ca300a917609188e796\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\0c7d0be1a68e6ca300a917609188e796\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\77a60bbc7021acfcd216c2213a66da46\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\77a60bbc7021acfcd216c2213a66da46\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1007bf9d514353c50158610570990ea2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1007bf9d514353c50158610570990ea2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\6d0323ba5d8faf53cdacb03175d3ec74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\6d0323ba5d8faf53cdacb03175d3ec74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\12461b95c23be9ba33129b2b09d53c27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\12461b95c23be9ba33129b2b09d53c27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1ba909058b38457eed351185fd37fdd2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1ba909058b38457eed351185fd37fdd2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a37ecf26a2c3912cc54c697f5d948db6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a37ecf26a2c3912cc54c697f5d948db6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\ecbc05f3b19eaff478dd0af6b259d738\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\ecbc05f3b19eaff478dd0af6b259d738\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9fdbb71dafbf774d079e013e428b624d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9fdbb71dafbf774d079e013e428b624d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a6f6f8d512ed6603257f4f678e38ebf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a6f6f8d512ed6603257f4f678e38ebf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b2f5d677156c39487a5b43140d790106\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b2f5d677156c39487a5b43140d790106\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0ea08650ef01e92dd7d535d6a47c530e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0ea08650ef01e92dd7d535d6a47c530e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\41dfcacb9a215b1a4c837b7ab6fce285\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\41dfcacb9a215b1a4c837b7ab6fce285\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\90c51dc0c86014fe9966d97c34ba0a25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\90c51dc0c86014fe9966d97c34ba0a25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7433477f41758d3c5ca09aa4b99401c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7433477f41758d3c5ca09aa4b99401c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\393451f0f037d290790ad1e91894182f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\393451f0f037d290790ad1e91894182f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f23e238b7ce84f4da5e2b58287a96de8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f23e238b7ce84f4da5e2b58287a96de8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\07db10f80481383a49e8a1a07bbd511a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\07db10f80481383a49e8a1a07bbd511a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8c97d3a4f0efb8b03e829a3a42e8e82d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8c97d3a4f0efb8b03e829a3a42e8e82d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\6d03876d449c093297e981f960cceb1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\6d03876d449c093297e981f960cceb1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\27d2cb6762cf06f21b41b2cc7d1bb496\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\27d2cb6762cf06f21b41b2cc7d1bb496\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c60a340c4c0a84c21c1398606cd2ef7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c60a340c4c0a84c21c1398606cd2ef7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\5e8adaa2e94f6c5e33b50a32e65875d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\5e8adaa2e94f6c5e33b50a32e65875d2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f5cfeee19d47f0663e2008f79e1c4aba\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f5cfeee19d47f0663e2008f79e1c4aba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\62fdeea4d407ef4ba1f0d172476204ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\62fdeea4d407ef4ba1f0d172476204ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\fc29f2480bf36ff359e64a2f191382b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\fc29f2480bf36ff359e64a2f191382b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\53fedbbbe694ff1d56b46ef50afc0797\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\53fedbbbe694ff1d56b46ef50afc0797\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3782a22324efc1bd6d8bcfbc2b562d95\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3782a22324efc1bd6d8bcfbc2b562d95\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\19b07ec32e171472c289a0539dc21b74\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\19b07ec32e171472c289a0539dc21b74\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\df92503847be5edbc2f07cfbef2e22e6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\df92503847be5edbc2f07cfbef2e22e6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fbf8c719f3561896dfea05c894677473\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fbf8c719f3561896dfea05c894677473\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\18194893a80d5d059e13ac82ee488ed1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\18194893a80d5d059e13ac82ee488ed1\AndroidManifest.xml:20:5-44
+MERGED from [cc.mvdan.accesspoint:library:0.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\library-0.2.0.aar\71b32fa04933933761ffce2c1cfae137\AndroidManifest.xml:6:5-8:41
+MERGED from [cc.mvdan.accesspoint:library:0.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\library-0.2.0.aar\71b32fa04933933761ffce2c1cfae137\AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\be8a874c9d4600f79be630fdd9173b68\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\be8a874c9d4600f79be630fdd9173b68\AndroidManifest.xml:19:5-43
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:28:13-60
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:16:22-71
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:18:5-20:38
+	android:maxSdkVersion
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:20:9-35
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:19:9-63
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:21:5-86
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:21:22-83
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:22:22-73
+uses-permission#android.permission.INTERNET
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:23:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:24:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:27:5-73
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:27:22-70
+uses-feature#android.hardware.bluetooth
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:29:5-63
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:29:19-60
+meta-data#io.fabric.ApiKey
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:32:9-34:72
+	android:value
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:34:13-69
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:33:13-44
+receiver#io.left.rightmesh.android.AndroidMeshManager$MeshIntentReceiver
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:36:9-45:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:38:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:37:13-91
+intent-filter#action:name:io.left.rightmesh.mesh.MeshManager.intent.action.NOTIFY_PERMISSION+action:name:io.left.rightmesh.mesh.MeshManager.intent.action.PEER_UPDATED+action:name:io.left.rightmesh.mesh.MeshManager.intent.action.SERVICE_START+action:name:io.left.rightmesh.mesh.MeshManager.intent.action.SERVICE_STOP
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:39:13-44:29
+action#io.left.rightmesh.mesh.MeshManager.intent.action.NOTIFY_PERMISSION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:40:17-109
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:40:25-106
+action#io.left.rightmesh.mesh.MeshManager.intent.action.PEER_UPDATED
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:41:17-104
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:41:25-101
+action#io.left.rightmesh.mesh.MeshManager.intent.action.SERVICE_START
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:42:17-105
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:42:25-102
+action#io.left.rightmesh.mesh.MeshManager.intent.action.SERVICE_STOP
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:43:17-104
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:43:25-101
+receiver#io.left.rightmesh.android.AndroidWifiDeviceInterface$ModeListener
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:46:9-56:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:48:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:47:13-93
+intent-filter#action:name:io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.AP_PERMISSION+action:name:io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.LOCATION_PERMISSION+action:name:io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.MODE_CHANGED+action:name:io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.SCAN_PERMISSION+action:name:io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.SSID_SET
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:49:13-55:29
+action#io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.MODE_CHANGED
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:50:17-122
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:50:25-119
+action#io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.AP_PERMISSION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:51:17-123
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:51:25-120
+action#io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.SCAN_PERMISSION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:52:17-125
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:52:25-122
+action#io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.LOCATION_PERMISSION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:53:17-129
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:53:25-126
+action#io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.SSID_SET
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:54:17-118
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:54:25-115
+receiver#io.left.rightmesh.android.MeshSettingsFragment$ModeListener
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:57:9-65:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:58:13-87
+intent-filter#action:name:io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.BT_ENABLED+action:name:io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.AP_PERMISSION+action:name:io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.LOCATION_PERMISSION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:60:13-64:29
+action#io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.BT_ENABLED
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:63:17-118
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:63:25-115
+receiver#io.left.rightmesh.android.AndroidAutonomousWifi$AutonomousWifiStateListener
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:66:9-72:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:68:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:67:13-103
+intent-filter#action:name:io.left.rightmesh.android.AutonomousWifi.intent.action.WIFI_ENABLED
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:69:13-71:29
+action#io.left.rightmesh.android.AutonomousWifi.intent.action.WIFI_ENABLED
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:70:17-110
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:70:25-107
+receiver#io.left.rightmesh.android.AndroidBTDeviceInterface$BTStateListener
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:73:9-85:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:75:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:74:13-94
+intent-filter#action:name:io.left.mesh.android.AndroidWifiDeviceInterface.intent.action.LOCATION_PERMISSION+action:name:io.left.mesh.android.AndroidWifiDeviceInterface.intent.action.SCAN_PERMISSION+action:name:io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.BT_ENABLED+action:name:io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.BT_PERMISSION+action:name:io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.SSID_SET
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:76:13-84:29
+action#io.left.mesh.android.AndroidWifiDeviceInterface.intent.action.SCAN_PERMISSION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:79:17-120
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:79:25-117
+action#io.left.mesh.android.AndroidWifiDeviceInterface.intent.action.LOCATION_PERMISSION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:80:17-124
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:80:25-121
+action#io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.BT_PERMISSION
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:81:17-121
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:81:25-118
+action#io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.SSID_SET
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:83:17-116
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:83:25-113
+receiver#io.left.rightmesh.android.AndroidAutonomousWifi$WifiScanner
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:86:9-88:39
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:88:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:87:13-87
+receiver#io.left.rightmesh.android.AndroidMeshService$ServiceChangeReceiver
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:89:9-95:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:91:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:90:13-94
+intent-filter#action:name:io.left.rightmesh.android.MeshManager.intent.action.SERVICE_STOP
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:92:13-94:29
+action#io.left.rightmesh.android.MeshManager.intent.action.SERVICE_STOP
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:93:17-107
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:93:25-104
+receiver#io.left.rightmesh.android.MeshStoreSettings$MeshStoreActionReceiver
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:96:9-103:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:98:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:97:13-95
+intent-filter#action:name:io.left.rightmesh.mesh.MeshManager.intent.action.DATA_TRADING+action:name:io.left.rightmesh.mesh.MeshManager.intent.action.STORE_CONFIG
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:99:13-102:29
+action#io.left.rightmesh.mesh.MeshManager.intent.action.STORE_CONFIG
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:100:17-104
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:100:25-101
+action#io.left.rightmesh.mesh.MeshManager.intent.action.DATA_TRADING
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:101:17-104
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:101:25-101
+receiver#io.left.rightmesh.android.MeshNetworkSettings$MeshNetworkSettingsRequestReceiver
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:104:9-110:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:106:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:105:13-108
+intent-filter#action:name:io.left.rightmesh.android.AndroidMeshService.intent.action.NETWORK_SETTINGS_REQUEST
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:107:13-109:29
+action#io.left.rightmesh.android.AndroidMeshService.intent.action.NETWORK_SETTINGS_REQUEST
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:108:17-126
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:108:25-123
+receiver#io.left.rightmesh.android.MeshStoreActivity$NetworkSettingsResponseReceiver
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:111:9-117:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:113:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:112:13-103
+intent-filter#action:name:io.left.rightmesh.android.MeshStoreActivity.intent.action.NETWORK_SETTINGS_RESPONSE
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:114:13-116:29
+action#io.left.rightmesh.android.MeshStoreActivity.intent.action.NETWORK_SETTINGS_RESPONSE
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:115:17-126
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:115:25-123
+receiver#io.left.rightmesh.android.MeshStoreCompatActivity$NetworkSettingsResponseReceiver
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:118:9-124:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:120:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:119:13-109
+intent-filter#action:name:io.left.rightmesh.android.MeshStoreCompatActivity.intent.action.NETWORK_SETTINGS_RESPONSE_COMPAT
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:121:13-123:29
+action#io.left.rightmesh.android.MeshStoreCompatActivity.intent.action.NETWORK_SETTINGS_RESPONSE_COMPAT
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:122:17-139
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:122:25-136
+receiver#io.left.rightmesh.android.MeshStoreActivity$UpdateWalletDetailsReceiver
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:125:9-131:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:127:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:126:13-99
+intent-filter#action:name:io.left.android.UpdateWalletDetailsReceiver.intent.action.WALLET_DETAILS
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:128:13-130:29
+action#io.left.android.UpdateWalletDetailsReceiver.intent.action.WALLET_DETAILS
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:129:17-115
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:129:25-112
+receiver#io.left.rightmesh.android.AndroidTransactionManager$NotifyStoreActivityStatus
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:132:9-139:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:134:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:133:13-105
+intent-filter#action:name:io.left.android.AndroidTransactionManager.intent.action.MESH_STORE_ACTIVITY+action:name:io.left.android.AndroidTransactionManager.intent.action.MESH_STORE_COMPAT_ACTIVITY
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:135:13-138:29
+action#io.left.android.AndroidTransactionManager.intent.action.MESH_STORE_ACTIVITY
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:136:17-118
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:136:25-115
+action#io.left.android.AndroidTransactionManager.intent.action.MESH_STORE_COMPAT_ACTIVITY
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:137:17-125
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:137:25-122
+receiver#io.left.rightmesh.android.MeshStoreCompatActivity$UpdateWalletDetailsReceiver
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:140:9-146:20
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:142:13-36
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:141:13-105
+service#io.left.rightmesh.android.AndroidMeshService
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:148:9-157:19
+	android:process
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:152:13-36
+	android:enabled
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:150:13-35
+	android:exported
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:151:13-36
+	android:stopWithTask
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:153:13-41
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:149:13-72
+intent-filter#action:name:io.left.mesh.bindservice
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:154:13-156:29
+action#io.left.mesh.bindservice
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:155:17-67
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:155:25-64
+activity#io.left.rightmesh.android.MeshPermissionActivity
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:159:9-162:53
+	android:label
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:161:13-47
+	android:theme
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:162:13-50
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:160:13-76
+activity#io.left.rightmesh.android.AndroidLocationPermissionActivity
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:163:9-166:53
+	android:label
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:165:13-54
+	android:theme
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:166:13-50
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:164:13-87
+activity#io.left.rightmesh.android.MeshSettingsActivity
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:167:9-171:53
+	android:label
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:170:13-47
+	android:excludeFromRecents
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:169:13-46
+	android:theme
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:171:13-50
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:168:13-74
+activity#io.left.rightmesh.android.MeshStoreActivity
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:172:9-175:53
+	android:label
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:174:13-47
+	android:theme
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:175:13-50
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:173:13-71
+activity#io.left.rightmesh.android.MeshSettingsCompatActivity
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:176:9-180:53
+	android:label
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:179:13-47
+	android:excludeFromRecents
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:178:13-46
+	android:theme
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:180:13-50
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:177:13-80
+activity#io.left.rightmesh.android.MeshStoreCompatActivity
+ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:181:9-184:53
+	android:label
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:183:13-47
+	android:theme
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:184:13-50
+	android:name
+		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:182:13-77
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12 reason: io.left.rightmesh requested WRITE_EXTERNAL_STORAGE
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1007bf9d514353c50158610570990ea2\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1007bf9d514353c50158610570990ea2\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\1007bf9d514353c50158610570990ea2\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12 reason: org.whispersystems.libsignal has a targetSdkVersion < 4

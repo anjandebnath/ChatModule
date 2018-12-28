@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uss.chatmodule"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- if we don't limit the max sdk version, it causes the wifi settings switch bug in 6.0 -->
+    <uses-permission
+        android:name="android.permission.CHANGE_NETWORK_STATE"
+        android:maxSdkVersion="22" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- permissions expressly granted by user in order to use wifi Master mode -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-feature android:name="android.hardware.bluetooth" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.uss.chatmodule.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="435957d4efeaa80f939f55b45d3842ce570d9018" />
+
+        <receiver
+            android:name="io.left.rightmesh.android.AndroidMeshManager$MeshIntentReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.rightmesh.mesh.MeshManager.intent.action.NOTIFY_PERMISSION" />
+                <action android:name="io.left.rightmesh.mesh.MeshManager.intent.action.PEER_UPDATED" />
+                <action android:name="io.left.rightmesh.mesh.MeshManager.intent.action.SERVICE_START" />
+                <action android:name="io.left.rightmesh.mesh.MeshManager.intent.action.SERVICE_STOP" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.AndroidWifiDeviceInterface$ModeListener"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.MODE_CHANGED" />
+                <action android:name="io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.AP_PERMISSION" />
+                <action android:name="io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.SCAN_PERMISSION" />
+                <action android:name="io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.LOCATION_PERMISSION" />
+                <action android:name="io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.SSID_SET" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.MeshSettingsFragment$ModeListener"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.LOCATION_PERMISSION" />
+                <action android:name="io.left.rightmesh.android.AndroidWifiDeviceInterface.intent.action.AP_PERMISSION" />
+                <action android:name="io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.BT_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.AndroidAutonomousWifi$AutonomousWifiStateListener"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.rightmesh.android.AutonomousWifi.intent.action.WIFI_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.AndroidBTDeviceInterface$BTStateListener"
+            android:enabled="false" >
+            <intent-filter>
+
+                <!-- note: these following two actions should use the wifi action so that we can just re-use the same event -->
+                <action android:name="io.left.mesh.android.AndroidWifiDeviceInterface.intent.action.SCAN_PERMISSION" />
+                <action android:name="io.left.mesh.android.AndroidWifiDeviceInterface.intent.action.LOCATION_PERMISSION" />
+                <action android:name="io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.BT_PERMISSION" />
+                <action android:name="io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.BT_ENABLED" />
+                <action android:name="io.left.rightmesh.android.AndroidBTDeviceInterface.intent.action.SSID_SET" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.AndroidAutonomousWifi$WifiScanner"
+            android:enabled="false" />
+        <receiver
+            android:name="io.left.rightmesh.android.AndroidMeshService$ServiceChangeReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.rightmesh.android.MeshManager.intent.action.SERVICE_STOP" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.MeshStoreSettings$MeshStoreActionReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.rightmesh.mesh.MeshManager.intent.action.STORE_CONFIG" />
+                <action android:name="io.left.rightmesh.mesh.MeshManager.intent.action.DATA_TRADING" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.MeshNetworkSettings$MeshNetworkSettingsRequestReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.rightmesh.android.AndroidMeshService.intent.action.NETWORK_SETTINGS_REQUEST" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.MeshStoreActivity$NetworkSettingsResponseReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.rightmesh.android.MeshStoreActivity.intent.action.NETWORK_SETTINGS_RESPONSE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.MeshStoreCompatActivity$NetworkSettingsResponseReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.rightmesh.android.MeshStoreCompatActivity.intent.action.NETWORK_SETTINGS_RESPONSE_COMPAT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.MeshStoreActivity$UpdateWalletDetailsReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.android.UpdateWalletDetailsReceiver.intent.action.WALLET_DETAILS" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.AndroidTransactionManager$NotifyStoreActivityStatus"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.android.AndroidTransactionManager.intent.action.MESH_STORE_ACTIVITY" />
+                <action android:name="io.left.android.AndroidTransactionManager.intent.action.MESH_STORE_COMPAT_ACTIVITY" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.left.rightmesh.android.MeshStoreCompatActivity$UpdateWalletDetailsReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="io.left.android.UpdateWalletDetailsReceiver.intent.action.WALLET_DETAILS" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="io.left.rightmesh.android.AndroidMeshService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=".mesh"
+            android:stopWithTask="false" >
+            <intent-filter>
+                <action android:name="io.left.mesh.bindservice" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="io.left.rightmesh.android.MeshPermissionActivity"
+            android:label="RightMesh Settings"
+            android:theme="@style/RightMeshTheme" />
+        <activity
+            android:name="io.left.rightmesh.android.AndroidLocationPermissionActivity"
+            android:label="RightMesh Scan Permission"
+            android:theme="@style/RightMeshTheme" />
+        <activity
+            android:name="io.left.rightmesh.android.MeshSettingsActivity"
+            android:excludeFromRecents="true"
+            android:label="RightMesh Settings"
+            android:theme="@style/RightMeshTheme" />
+        <activity
+            android:name="io.left.rightmesh.android.MeshStoreActivity"
+            android:label="RightMesh Settings"
+            android:theme="@style/RightMeshTheme" />
+        <activity
+            android:name="io.left.rightmesh.android.MeshSettingsCompatActivity"
+            android:excludeFromRecents="true"
+            android:label="RightMesh Settings"
+            android:theme="@style/RightMeshTheme" />
+        <activity
+            android:name="io.left.rightmesh.android.MeshStoreCompatActivity"
+            android:label="RightMesh Settings"
+            android:theme="@style/RightMeshTheme" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

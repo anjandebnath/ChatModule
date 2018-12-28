@@ -1,0 +1,4 @@
+# Referenced at D:\android_testing_checkpoints\ChatModule\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:32
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }
+# Referenced at D:\android_testing_checkpoints\ChatModule\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:169
+-keep class io.left.rightmesh.android.AndroidMeshService { <init>(...); }
