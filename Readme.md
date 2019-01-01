@@ -31,3 +31,7 @@ Then, last step we have to take, we need to tell ancestor about subcomponent inf
  In my case I wanted to add Application to my AppComponent.
 
 >Note: If you want to create a Builder for your Component, your Builder interface has to has a build(); method which returns your Component.
+
+
+### Inject Into AppComponent
+we can **bind our application instance** to our Dagger graph.
