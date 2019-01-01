@@ -67,3 +67,5 @@ Each Activity has module and component but the components are Subcomponents that
 **MainActivityComponent**: This component is just a bridge to **MainActivityModule**. We don’t add inject() and build() method to this component. MainActivityComponent has these methods from ancestor **AndroidInjector** class. AndroidInjector class is new dagger-android class which exist in dagger-android framework. 
 
 > Note: We create our MainActivityComponent with our *MainActivity* class. So dagger will attach our activity to it’s graph.
+
+![](https://github.com/anjandebnath/ChatModule/blob/master/img/ActivityComponent1.PNG)
