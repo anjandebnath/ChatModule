@@ -17,3 +17,6 @@ dagger graph with visual graphic is depicted here
 
 If we want to attach our **activity** to dagger graph to get instances from ancestor, we simply create a **@Subcomponent** for it.
 Then, last step we have to take, we need to tell ancestor about subcomponent info. So all subcomponents have to be known by its ancestor.
+
+**Package Structure and Activity attach**
+![](https://github.com/anjandebnath/ChatModule/blob/master/img/package.png)
