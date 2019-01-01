@@ -76,5 +76,11 @@ Each Activity has module and component but the components are Subcomponents that
  - Same relationship between **Activity** and its **Fragments**. We will create a **FragmentBuilder** module and add as module to **@SubComponent** MainActivityComponent.
  
  ### DispatchingAndroidInjector<T>
- Performs **members-injection on instances** of core Android types (e.g. Activity, Fragment) that are constructed by the Android framework and not by Dagger.
+ 
+ **Dagger 2 includes HasActivityInjector as a new that provides AndroidInjector and should implement in Application class, also we should inject DispatchingAndroidInjector that’s mean return activityInjector, in this way we’ll use AndroidInjection.inject() for activity and fragment.**
+ We can use AndroidInjection.inject(this) in activity after inject DispatchingAndroidInjector in application.
+ AndroidInjection.inject(this) should calls in onCreate method before super. That’s all!!
+ 
+ - Application has activities. That is why Application class implement **HasActivityInjector** interface.
+ - Activity has fragments. That is why Activity class implement **HasFragmentInjector** interface.
  [link1](https://medium.com/@iammert/new-android-injector-with-dagger-2-part-1-8baa60152abe) described more
