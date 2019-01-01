@@ -46,9 +46,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.karumi.dexter.DexterActivity"
-            android:theme="@style/Dexter.Internal.Theme.Transparent" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
@@ -203,6 +200,9 @@
             android:name="io.left.rightmesh.android.MeshStoreCompatActivity"
             android:label="RightMesh Settings"
             android:theme="@style/RightMeshTheme" />
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

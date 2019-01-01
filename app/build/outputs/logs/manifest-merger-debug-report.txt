@@ -4,12 +4,14 @@ ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifes
 INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12
-MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:17:1-32:12
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\89724f5bfc1e1635af450097f47f685a\AndroidManifest.xml:17:1-22:12
 MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:2:1-187:12
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.dagger:dagger-android-support:2.19] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dagger-android-support-2.19.aar\c7e943817499be6fb167f4094fac01b2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ed8cd656ff2faac8fd3edff05ed6744e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\dd35a75d9bf98875b7221e907b285c93\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.dagger:dagger-android:2.19] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dagger-android-2.19.aar\3a4323fed6b6237d796a781bc53164b9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\c3f9523a5458a4b6c940e1b4d04fc3f9\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\0c7d0be1a68e6ca300a917609188e796\AndroidManifest.xml:17:1-24:12
@@ -23,8 +25,8 @@ MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\USER06\.gradle
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9fdbb71dafbf774d079e013e428b624d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a6f6f8d512ed6603257f4f678e38ebf8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b2f5d677156c39487a5b43140d790106\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0ea08650ef01e92dd7d535d6a47c530e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\41dfcacb9a215b1a4c837b7ab6fce285\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0ea08650ef01e92dd7d535d6a47c530e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\90c51dc0c86014fe9966d97c34ba0a25\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7433477f41758d3c5ca09aa4b99401c6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\393451f0f037d290790ad1e91894182f\AndroidManifest.xml:17:1-22:12
@@ -67,10 +69,10 @@ INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidMani
 		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:5:5-19:19
-MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:26:5-30:19
-MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:26:5-30:19
 MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:31:5-185:19
 MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:31:5-185:19
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:26:5-30:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\c3f9523a5458a4b6c940e1b4d04fc3f9\AndroidManifest.xml:7:5-20
@@ -121,18 +123,22 @@ uses-sdk
 INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
 INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
-MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:22:5-24:41
-MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\89724f5bfc1e1635af450097f47f685a\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\89724f5bfc1e1635af450097f47f685a\AndroidManifest.xml:20:5-43
 MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:7:5-9:41
 MERGED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.dagger:dagger-android-support:2.19] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dagger-android-support-2.19.aar\c7e943817499be6fb167f4094fac01b2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.19] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dagger-android-support-2.19.aar\c7e943817499be6fb167f4094fac01b2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ed8cd656ff2faac8fd3edff05ed6744e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ed8cd656ff2faac8fd3edff05ed6744e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\dd35a75d9bf98875b7221e907b285c93\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\dd35a75d9bf98875b7221e907b285c93\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\0a5a25165c57a25c2ea1364fc387acba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.dagger:dagger-android:2.19] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dagger-android-2.19.aar\3a4323fed6b6237d796a781bc53164b9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.19] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dagger-android-2.19.aar\3a4323fed6b6237d796a781bc53164b9\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\c3f9523a5458a4b6c940e1b4d04fc3f9\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\c3f9523a5458a4b6c940e1b4d04fc3f9\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:20:5-44
@@ -159,10 +165,10 @@ MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\USER06
 MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a6f6f8d512ed6603257f4f678e38ebf8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b2f5d677156c39487a5b43140d790106\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b2f5d677156c39487a5b43140d790106\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0ea08650ef01e92dd7d535d6a47c530e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0ea08650ef01e92dd7d535d6a47c530e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\41dfcacb9a215b1a4c837b7ab6fce285\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\41dfcacb9a215b1a4c837b7ab6fce285\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0ea08650ef01e92dd7d535d6a47c530e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0ea08650ef01e92dd7d535d6a47c530e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\90c51dc0c86014fe9966d97c34ba0a25\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\90c51dc0c86014fe9966d97c34ba0a25\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\7433477f41758d3c5ca09aa4b99401c6\AndroidManifest.xml:20:5-44
@@ -215,12 +221,6 @@ INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidMani
 		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
 		ADDED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
 		INJECTED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml
-activity#com.karumi.dexter.DexterActivity
-ADDED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:27:9-29:72
-	android:theme
-		ADDED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:29:13-69
-	android:name
-		ADDED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:28:13-60
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:11:5-81
 	android:name
@@ -561,6 +561,12 @@ ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gra
 		ADDED from [io.left.rightmesh:lib-rightmesh-android:0.10.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\lib-rightmesh-android-0.10.0.aar\03457c0e1243709ad792f668aa2a05a8\AndroidManifest.xml:182:13-77
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from D:\android_testing_checkpoints\ChatModule\app\src\main\AndroidManifest.xml:2:1-21:12 reason: io.left.rightmesh requested WRITE_EXTERNAL_STORAGE
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:4.2.0] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\5311883a0859fcd784a08cf60063311b\AndroidManifest.xml:28:13-60
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\USER06\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50a9446db0fc11e59b04cf45167ec875\AndroidManifest.xml:23:9-26:75
 	android:exported
