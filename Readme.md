@@ -56,3 +56,14 @@ This Component is root of our dagger graph. Application component is providing 3
 - We provide retrofit, okhttp, persistence db, shared pref etc here. 
 - **We have to add our subcomponents to AppModule**. So our dagger graph will understand that.
 ![Apmodule](https://github.com/anjandebnath/ChatModule/blob/master/img/AppModule1.PNG)
+
+
+### Activity Components
+Each Activity has module and component but the components are Subcomponents that we define in AppModule
+- For **MainActivity** it will have **MainActivityModule** and **MainActivityComponent**
+
+**MainActivityModule**: This module provides main activity related instances.
+
+**MainActivityComponent**: This component is just a bridge to **MainActivityModule**. We don’t add inject() and build() method to this component. MainActivityComponent has these methods from ancestor **AndroidInjector** class. AndroidInjector class is new dagger-android class which exist in dagger-android framework. 
+
+> Note: We create our MainActivityComponent with our *MainActivity* class. So dagger will attach our activity to it’s graph.
