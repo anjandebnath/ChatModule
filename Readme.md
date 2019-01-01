@@ -35,3 +35,4 @@ Then, last step we have to take, we need to tell ancestor about subcomponent inf
 
 ### Inject Into AppComponent
 we can **bind our application instance** to our Dagger graph.
+![bind instance](https://github.com/anjandebnath/ChatModule/blob/master/img/Bindinstance.PNG)
