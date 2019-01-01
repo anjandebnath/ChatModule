@@ -23,3 +23,4 @@ Then, last step we have to take, we need to tell ancestor about subcomponent inf
 ![subcomponent](https://github.com/anjandebnath/ChatModule/blob/master/img/package.png)
 
 ### @Component and @Component.Builder
+![component](https://github.com/anjandebnath/ChatModule/blob/master/img/component.PNG)
