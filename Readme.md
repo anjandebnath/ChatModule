@@ -78,6 +78,8 @@ Each Activity has module and component but the components are Subcomponents that
  ### DispatchingAndroidInjector<T>
  
  **Dagger 2 includes HasActivityInjector as a new that provides AndroidInjector and should implement in Application class, also we should inject DispatchingAndroidInjector that’s mean return activityInjector, in this way we’ll use AndroidInjection.inject() for activity and fragment.**
+ 
+ 
  We can use AndroidInjection.inject(this) in activity after inject DispatchingAndroidInjector in application.
  AndroidInjection.inject(this) should calls in onCreate method before super. That’s all!!
  
