@@ -12,3 +12,7 @@ The core principal of dependency injection is `A class shouldn’t know anything
 
 dagger graph with visual graphic is depicted here 
 ![graph](https://github.com/anjandebnath/ChatModule/blob/master/img/graph1.png)
+
+#### Attach Activity to Dagger
+
+If we want to attach our **activity** to dagger graph to get instances from ancestor, we simply create a @Subcomponent for it.
