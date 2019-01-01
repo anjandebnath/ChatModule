@@ -41,9 +41,17 @@ we can **bind our application instance** to our Dagger graph.
 ### Application Component
 This Component is root of our dagger graph. Application component is providing 3 module in our app.
 
-**AndroidInjectionModule** : We didn’t create this. It is an internal class in Dagger 2.10. The AndroidInjectionModule helps handling the android framework classes like Activity, Fragment, Service and Broadcasts.
-*AndroidInjectionModule* binds your **app.fragment** to dagger. But If you want to use injection in **v4.fragment** then you should add **AndroidSupportInjectionModule** to your AppComponent modules.
+**AndroidInjectionModule** : 
+- We didn’t create this. It is an internal class in Dagger 2.10. 
+- The AndroidInjectionModule helps handling the android framework classes like Activity, Fragment, Service and Broadcasts.
+- *AndroidInjectionModule* binds your **app.fragment** to dagger. But If you want to use injection in **v4.fragment** then you should add **AndroidSupportInjectionModule** to your AppComponent modules.
 
-**ActivityBuilder** : To map all activity and pass it to Dagger2 we will create the ActivityBuilderModule. We created this module. This is a given module to dagger. We map all our activities here. And Dagger know our activities in compile time.
+**ActivityBuilder** : 
+- To map all activity and pass it to Dagger2 we will create the ActivityBuilderModule. 
+- We created this module. This is a given module to dagger. We map all our activities here. And Dagger know our activities in compile time.
 
-**AppModule**: We provide retrofit, okhttp, persistence db, shared pref etc here. **We have to add our subcomponents to AppModule**. So our dagger graph will understand that.
+![ac](https://github.com/anjandebnath/ChatModule/blob/master/img/ActivityBuilder1.PNG)
+
+**AppModule**: 
+- We provide retrofit, okhttp, persistence db, shared pref etc here. 
+- **We have to add our subcomponents to AppModule**. So our dagger graph will understand that.
