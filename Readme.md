@@ -69,3 +69,12 @@ Each Activity has module and component but the components are Subcomponents that
 > Note: We create our MainActivityComponent with our *MainActivity* class. So dagger will attach our activity to it’s graph.
 
 ![](https://github.com/anjandebnath/ChatModule/blob/master/img/ActivityComponent1.PNG)
+
+
+### Fragment Components
+ - **Application** knows **Activities** with a mapping module(**ActivityBuilder** module and add as module to AppComponent). And we add our activities to AppModule as subcomponent.
+ - Same relationship between **Activity** and its **Fragments**. We will create a **FragmentBuilder** module and add as module to **@SubComponent** MainActivityComponent.
+ 
+ ### DispatchingAndroidInjector<T>
+ Performs **members-injection on instances** of core Android types (e.g. Activity, Fragment) that are constructed by the Android framework and not by Dagger.
+ [link1](https://medium.com/@iammert/new-android-injector-with-dagger-2-part-1-8baa60152abe) described more
