@@ -21,3 +21,5 @@ Then, last step we have to take, we need to tell ancestor about subcomponent inf
 **Package Structure and Activity attach**
 
 ![subcomponent](https://github.com/anjandebnath/ChatModule/blob/master/img/package.png)
+
+### @Component and @Component.Builder
