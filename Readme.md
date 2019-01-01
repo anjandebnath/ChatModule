@@ -11,4 +11,4 @@ The core principal of dependency injection is `A class shouldn’t know anything
 
 
 dagger graph with visual graphic is depicted here 
-[](https://github.com/anjandebnath/ChatModule/blob/master/img/graph1.png)
+[graph](https://github.com/anjandebnath/ChatModule/blob/master/img/graph1.png)
