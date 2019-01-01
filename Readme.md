@@ -24,3 +24,10 @@ Then, last step we have to take, we need to tell ancestor about subcomponent inf
 
 ### @Component and @Component.Builder
 ![component](https://github.com/anjandebnath/ChatModule/blob/master/img/component.PNG)
+
+**@Component:** Component is a graph. We build a component. Component will **provide injected instances by using modules**.
+
+**@Component.Builder:** We might want to **bind some instance to Component**. In this case we can create an interface with **@Component.Builder** annotation and **add whatever method we want to add to builder**. 
+ In my case I wanted to add Application to my AppComponent.
+
+>Note: If you want to create a Builder for your Component, your Builder interface has to has a build(); method which returns your Component.
