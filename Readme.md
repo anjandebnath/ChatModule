@@ -55,3 +55,4 @@ This Component is root of our dagger graph. Application component is providing 3
 **AppModule**: 
 - We provide retrofit, okhttp, persistence db, shared pref etc here. 
 - **We have to add our subcomponents to AppModule**. So our dagger graph will understand that.
+![Apmodule](https://github.com/anjandebnath/ChatModule/blob/master/img/AppModule1.PNG)
