@@ -104,7 +104,9 @@ Each Activity has module and component but the components are Subcomponents that
  - **UI subcomponents** (MainActivityComponent) are just like bridge in the graph.
  - Whenever we add our UI component as new subcomponent, we have to map our activity in **ActivityBuilder module**. This is also repetitive task.
  
- ### Don’t Repeat Yourself
+ ## Don’t Repeat Yourself
+ 
+ ### Attach Activity to Dagger in a new way
  We can easily attach activities/fragments to dagger graph *to get instances from ancestor*, with new annotation **@ContributesAndroidInjector**
  The new graph can be depicted as below 
  
@@ -131,3 +133,40 @@ Each Activity has module and component but the components are Subcomponents that
              abstract MainActivity bindMainActivity();
          
          }
+         
+         
+### AndroidInjector helps us to simplify our App Component
+
+- **build()** and **seedInstance()** is already defined in **AndroidInjector.Builder** class. So we can get rid of them and extend our Builder from **AndroidInjection.Builder<Application>**.
+- AndroidInjector interface has **inject()** method in it. So we can remove **inject()** method and extend our AppComponent interface from **AndroidInjector<Application>**
+
+So **AppComponent** code will be changed 
+from
+
+    @Component(modules = {
+            AndroidInjectionModule.class,
+            AppModule.class,
+            ActivityBuilder.class})
+    public interface AppComponent {
+    
+        @Component.Builder
+        interface Builder {
+            @BindsInstance Builder application(Application application);
+            AppComponent build();
+        }
+    
+        void inject(AndroidSampleApp app);
+    }
+    
+to
+
+    @Component(modules = {
+             AndroidSupportInjectionModule.class,
+             AppModule.class,
+             ActivityBuilder.class})
+    interface AppComponent extends AndroidInjector<AndroidSampleApp> {
+         @Component.Builder
+         abstract class Builder extends AndroidInjector.Builder<AndroidSampleApp> {}
+    }       
+    
+    
