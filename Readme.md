@@ -114,4 +114,4 @@ Each Activity has module and component but the components are Subcomponents that
  We can easily attach activities/fragments to dagger graph *to get instances from ancestor*, with new annotation **@ContributesAndroidInjector**
  The new graph can be depicted as below 
  
- ![]()
+ ![gr](https://github.com/anjandebnath/ChatModule/blob/master/img/graph2.png)
