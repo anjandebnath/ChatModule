@@ -137,6 +137,7 @@ Each Activity has module and component but the components are Subcomponents that
          
 ### AndroidInjector helps us to simplify our App Component
 
+We can use **AndroidInjector<T>** in your dagger components to reduce boilerplate.
 - **build()** and **seedInstance()** is already defined in **AndroidInjector.Builder** class. So we can get rid of them and extend our Builder from **AndroidInjection.Builder<Application>**.
 - AndroidInjector interface has **inject()** method in it. So we can remove **inject()** method and extend our AppComponent interface from **AndroidInjector<Application>**
 
@@ -161,12 +162,61 @@ from
 to
 
     @Component(modules = {
-             AndroidSupportInjectionModule.class,
+             AndroidInjectionModule.class,
              AppModule.class,
              ActivityBuilder.class})
     interface AppComponent extends AndroidInjector<AndroidSampleApp> {
          @Component.Builder
          abstract class Builder extends AndroidInjector.Builder<AndroidSampleApp> {}
     }       
+
+
+###  DaggerActivity, DaggerFragment, DaggerApplication
+We can use **DaggerActivity**, **DaggerFragment**, **DaggerApplication** to reduce boilerplate in our Activity/Fragment/Application.
+
+We need to extend our Application class from DaggerApplication.
+So **Application** class will be changed 
+from 
+
+    public class AndroidSampleApp extends Application implements HasActivityInjector {
+    
+        @Inject
+        DispatchingAndroidInjector<Activity> activityDispatchingAndroidInjector;
+    
+        @Override
+        public void onCreate() {
+            super.onCreate();
+            DaggerAppComponent
+                    .builder()
+                    .application(this)
+                    .build()
+                    .inject(this);
+        }
+    
+        @Override
+        public DispatchingAndroidInjector<Activity> activityInjector() {
+            return activityDispatchingAndroidInjector;
+        }
+    }
+to
+
+    public class AndroidSampleApp extends DaggerApplication {
+    
+        @Override
+                public void onCreate() {
+                    super.onCreate();
+         
+                }
+                
+        @Override
+        protected AndroidInjector<? extends AndroidSampleApp> applicationInjector() {
+            return DaggerAppComponent.builder().create(this);
+        }
+    }    
     
     
+
+Reference 
+- https://medium.com/@iammert/new-android-injector-with-dagger-2-part-1-8baa60152abe
+- https://medium.com/@iammert/new-android-injector-with-dagger-2-part-2-4af05fd783d0
+- https://android.jlelse.eu/new-android-injector-with-dagger-2-part-3-fe3924df6a89    
