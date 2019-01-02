@@ -50,20 +50,20 @@ This Component is root of our dagger graph. Application component is providing 3
 - To map all activity and pass it to Dagger2 we will create the ActivityBuilderModule. 
 - We created this module. This is a given module to dagger. We map all our activities here. And Dagger know our activities in compile time.
 
-    @Module
-    public abstract class ActivityBuilder {
-
-        @Binds
-        @IntoMap
-        @ActivityKey(MainActivity.class)
-        abstract AndroidInjector.Factory<? extends Activity> bindMainActivity(MainActivityComponent.Builder builder);
-
-        @Binds
-        @IntoMap
-        @ActivityKey(DetailActivity.class)
-        abstract AndroidInjector.Factory<? extends Activity> bindDetailActivity(DetailActivityComponent.Builder builder);
-
-    }
+        @Module
+        public abstract class ActivityBuilder {
+    
+            @Binds
+            @IntoMap
+            @ActivityKey(MainActivity.class)
+            abstract AndroidInjector.Factory<? extends Activity> bindMainActivity(MainActivityComponent.Builder builder);
+    
+            @Binds
+            @IntoMap
+            @ActivityKey(DetailActivity.class)
+            abstract AndroidInjector.Factory<? extends Activity> bindDetailActivity(DetailActivityComponent.Builder builder);
+    
+        }
 
 **AppModule**: 
 - We provide retrofit, okhttp, persistence db, shared pref etc here. 
