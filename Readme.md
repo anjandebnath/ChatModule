@@ -201,13 +201,7 @@ from
 to
 
     public class AndroidSampleApp extends DaggerApplication {
-    
-        @Override
-                public void onCreate() {
-                    super.onCreate();
          
-                }
-                
         @Override
         protected AndroidInjector<? extends AndroidSampleApp> applicationInjector() {
             return DaggerAppComponent.builder().create(this);
