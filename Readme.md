@@ -58,12 +58,6 @@ This Component is root of our dagger graph. Application component is providing 3
             @IntoMap
             @ActivityKey(MainActivity.class)
             abstract AndroidInjector.Factory<? extends Activity> bindMainActivity(MainActivityComponent.Builder builder);
-    
-            @Binds
-            @IntoMap
-            @ActivityKey(DetailActivity.class)
-            abstract AndroidInjector.Factory<? extends Activity> bindDetailActivity(DetailActivityComponent.Builder builder);
-    
         }
 
 **AppModule**: 
@@ -115,3 +109,25 @@ Each Activity has module and component but the components are Subcomponents that
  The new graph can be depicted as below 
  
  ![gr](https://github.com/anjandebnath/ChatModule/blob/master/img/graph2.png)
+ 
+ So **ActivityBuilder** Module code will be changed 
+ from 
+ 
+         @Module
+         public abstract class ActivityBuilder {
+             
+             @Binds
+             @IntoMap
+             @ActivityKey(MainActivity.class)
+             abstract AndroidInjector.Factory<? extends Activity> bindMainActivity(MainActivityComponent.Builder builder);
+         }
+         
+ to
+         
+         @Module
+         public abstract class ActivityBuilder {
+         
+             @ContributesAndroidInjector(modules = MainActivityModule.class)
+             abstract MainActivity bindMainActivity();
+         
+         }
