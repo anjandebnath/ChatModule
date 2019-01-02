@@ -15,7 +15,7 @@ dagger graph with visual graphic is depicted here
 
 #### Attach Activity to Dagger
 
-If we want to attach our **activity** to dagger graph to get instances from ancestor, we simply create a **@Subcomponent** for it.
+If we want to *attach* our **activity** to dagger graph *to get instances from ancestor*, we simply create a **@Subcomponent** for it.
 Then, last step we have to take, we need to tell ancestor about subcomponent info. So all subcomponents have to be known by its ancestor.
 
 **Package Structure and Activity attach**
@@ -104,6 +104,14 @@ Each Activity has module and component but the components are Subcomponents that
  We call **AndroidInjection.inject(this)** in MainActivity and **provide whatever instance** we want in **MainActivityModule**.
  [link1](https://medium.com/@iammert/new-android-injector-with-dagger-2-part-1-8baa60152abe) described more
  
+ ## Notes
+ 
  > Repetitive Task
  - **UI subcomponents** (MainActivityComponent) are just like bridge in the graph.
  - Whenever we add our UI component as new subcomponent, we have to map our activity in **ActivityBuilder module**. This is also repetitive task.
+ 
+ ### Don’t Repeat Yourself
+ We can easily attach activities/fragments to dagger graph *to get instances from ancestor*, with new annotation **@ContributesAndroidInjector**
+ The new graph can be depicted as below 
+ 
+ ![]()
