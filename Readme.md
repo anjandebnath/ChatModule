@@ -49,6 +49,7 @@ This Component is root of our dagger graph. Application component is providing 3
 **ActivityBuilder** : 
 - To map all activity and pass it to Dagger2 we will create the ActivityBuilderModule. 
 - We created this module. This is a given module to dagger. We map all our activities here. And Dagger know our activities in compile time.
+- Map MainActivity to ActivityBuilder(**So dagger can understand MainActivity will be injected.**)
 
         @Module
         public abstract class ActivityBuilder {
@@ -99,4 +100,10 @@ Each Activity has module and component but the components are Subcomponents that
  
  - Application has activities. That is why Application class implement **HasActivityInjector** interface.
  - Activity has fragments. That is why Activity class implement **HasFragmentInjector** interface.
+ 
+ We call **AndroidInjection.inject(this)** in MainActivity and **provide whatever instance** we want in **MainActivityModule**.
  [link1](https://medium.com/@iammert/new-android-injector-with-dagger-2-part-1-8baa60152abe) described more
+ 
+ > Repetitive Task
+ - **UI subcomponents** (MainActivityComponent) are just like bridge in the graph.
+ - Whenever we add our UI component as new subcomponent, we have to map our activity in **ActivityBuilder module**. This is also repetitive task.
